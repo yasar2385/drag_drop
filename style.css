@@ -1,0 +1,27 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+h1,
+h2 {
+  font-family: Lato;
+}
+.drag-over {
+  border: dashed 3px red;
+}
+.hide {
+  display: none;
+}
+.box {
+  width: 40px;
+  height: 40px;
+  border: 2px pink solid;
+  padding: 2em;
+}
+.drop-targets {
+  width: 400px;
+  border: 2px blue solid;
+  padding: 1rem;
+}
+.item {
+  background-color: yellow;
+  width: 20px;
+  height: 20px;
+}
