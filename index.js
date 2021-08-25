@@ -56,3 +56,12 @@ function drop(e) {
     // display the draggable element
     draggable.classList.remove('hide');
 }
+
+
+Element.prototype.insertAfter = function() {
+    if (this.parentNode.nextSibling) {
+        this.parentNode.parentNode.insertBefore(this, this.parentNode.nextSibling);
+    } else {
+        this.parentNode.parentNode.appendChild(this);
+    }
+};
